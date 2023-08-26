@@ -1,38 +1,166 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+}
+.contain {
+  height: 100vh;
+  width: 100%;
+  background-color: hsl(234, 29%, 20%);
+  font-family: "outfit", sans-serif;
+  color: hsl(234, 29%, 20%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+label{
+  font-size: 12px;
+}
+.container {
+  height: 550px;
+  width: 750px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-side {
+  width: 50%;
+  height: 400px;
+  float: left;
+  margin: 55px 0px 0px 40px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.image-side {
+  width: 40%;
+  height: 520px;
+  float: right;
+  background: url("../public/images/illustration-sign-up-desktop.svg");
+  background-size: cover;
+  margin: 15px 15px 15px 0px;
+  border-radius: 15px;
+}
+
+button,input {
+  height: 45px;
+  width: 340px;
+  border-radius: 7px;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid hsl(231, 7%, 60%);
+}
+
+button {
+  background-color: hsl(234, 29%, 20%);
   color: white;
+  width: 350px;
+
+}
+button:hover{
+  background-color: hsl(4, 100%, 67%);
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 10px 30px hsl(4, 100%, 67%);
+  
+  
+}
+input:hover{
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+
+.subscribe {
+  padding-top: 30px;
+  align-items: center;
+}
+ul {
+  padding-top: 30px;
+  list-style: none;
+  padding-left: 0px;
+}
+li {
+  list-style: none; 
+  display: flex; 
+  align-items: center; 
+}
+li::before {
+  content: "";
+  display: inline-block;
+  background-image: url("../public/images/icon-list.svg");
+  background-size:contain;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+  background-repeat: no-repeat;
+
+}
+li:not(:last-child) {
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-p {
+  padding-top: 20px;
+  font-size: 16px;
 }
+h1 {
+  font-size: 50px;
+}
+
+
+label {
+  font-weight: bold;
+}
+
+input{
+  padding-left: 10px;
+ 
+}
+
+
+@media(max-width:375px){
+
+ h1{
+  font-size: 40px;
+ }
+
+  .container{
+    height: 100vh;
+    width: 100%;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column-reverse;
+   
+  }
+  .text-side {
+    width: 100%;
+    height:60%;
+    margin: 20px;
+    padding-bottom: 0px;
+    
+  }
+  
+  .image-side {
+    width:100%;
+    height: 40%;
+    background:  url("../public/images/illustration-sign-up-desktop.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   border-radius: 0px 0px 20px 20px;
+   
+   
+  }
+  .home-p,li{
+    margin-right: 55px;
+    
+  }
+
+  }
+ 
+
+  
+  
+

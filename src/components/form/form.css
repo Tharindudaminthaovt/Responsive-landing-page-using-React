@@ -1,0 +1,24 @@
+
+
+  .error-message{
+    color: hsl(4, 100%, 67%);
+    padding-left: 150px;
+    
+  }
+  input {
+    height: 45px;
+    width: 340px;
+    border-radius: 7px;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid hsl(231, 7%, 60%);
+  }
+  
+@media(max-width:375px){
+   
+   form{
+    padding-top: 30px;
+   }
+
+    }
+    
+ 
