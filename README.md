@@ -1,4 +1,5 @@
-##Newsletter sign-up form with success message solution
+## Newsletter sign-up form with success message solution
+
 The Purpose
 Users should be able to:
 
