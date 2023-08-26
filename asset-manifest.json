@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Responsive-landing-page-using-React/static/css/main.4e12d501.css",
+    "main.js": "/Responsive-landing-page-using-React/static/js/main.f9cb3766.js",
+    "static/media/illustration-sign-up-desktop.svg": "/Responsive-landing-page-using-React/static/media/illustration-sign-up-desktop.ce2024babf0bc98a8862.svg",
+    "index.html": "/Responsive-landing-page-using-React/index.html",
+    "static/media/icon-list.svg": "/Responsive-landing-page-using-React/static/media/icon-list.5e317c030bb9f11a3343.svg",
+    "main.4e12d501.css.map": "/Responsive-landing-page-using-React/static/css/main.4e12d501.css.map",
+    "main.f9cb3766.js.map": "/Responsive-landing-page-using-React/static/js/main.f9cb3766.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e12d501.css",
+    "static/js/main.f9cb3766.js"
+  ]
+}
