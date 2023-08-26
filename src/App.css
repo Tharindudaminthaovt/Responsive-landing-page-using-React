@@ -157,7 +157,14 @@ input{
     margin-right: 55px;
     
   }
-
+  li::before {
+   
+    width: 30px;
+    height: 20px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+  
+  }
   }
  
 
