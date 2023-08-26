@@ -29,7 +29,7 @@ padding: 25px;
 }
 
 .tick-img{
-    background: url(../../../public/images/icon-list.svg);
+    background: url("../../../public/images/icon-list.svg");
     padding: 40px 0px 15px 0px;
    background-repeat: no-repeat;
    background-size:contain;
