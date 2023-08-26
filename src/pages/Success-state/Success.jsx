@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import './Success.css';
 
 export default function Success({ formData ,closeModal}) {
