@@ -9,8 +9,10 @@ export default function Success({ formData ,closeModal}) {
     
       <div className='background'>
     <div className='message-box'>
-        <div className='content'>
-          <img className='tick-img' src='images/icon-list.svg' height='50px' />
+          <div className='content'>
+            <div className='img tick-img'>
+              
+              </div>
           <h1> Thanks for subscribing!</h1>
           <p className='message'>
             A confirmation email has been sent to{' '}
