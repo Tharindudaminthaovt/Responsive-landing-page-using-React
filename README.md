@@ -1,6 +1,6 @@
 ## Newsletter sign-up form with success message solution
 
-The Purpose
+#The Purpose:
 Users should be able to:
 
 Add their email and submit the form
